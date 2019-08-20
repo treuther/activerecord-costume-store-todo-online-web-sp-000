@@ -5,7 +5,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
 # 002_create_costumes.rb becomes class CreateCostumes
   def change
     create_table :costumes do |t|
-      string.t
+      t.string :name
   end
 # Define a change method in which to do the migration
 # In this change method, create columns with the correct names and
